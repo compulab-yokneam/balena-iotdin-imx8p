@@ -2,6 +2,56 @@
 
 # v6.0.5
 
+# v6.0.22+rev1
+## (2024-09-12)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 4bc14c6b105fd26f5cad219f2cf4c324e8be038c [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.40
+> ### (2024-09-12)
+> 
+> * Update balena-os/leviathan action to v2.31.37 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.39
+> ### (2024-09-11)
+> 
+> * Update actions/create-github-app-token action to v1.11.0 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.38
+> ### (2024-09-09)
+> 
+> * Include semver when bumping leviathan action [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.25.37
+> ### (2024-09-05)
+> 
+> * Update balena-os/leviathan digest to 8fb47f2 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.36
+> ### (2024-09-05)
+> 
+> * Update balena-os/leviathan digest to 5db2b5d [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.35
+> ### (2024-09-04)
+> 
+> * Update balena-os/leviathan digest to da52396 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.34
+> ### (2024-09-04)
+> 
+> * Update actions/create-github-app-token action to v1.10.4 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.33
+> ### (2024-09-02)
+> 
+> * Update balena-os/leviathan digest to d8572e2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.22
 ## (2024-09-12)
 
