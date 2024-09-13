@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.0.22+rev3
+## (2024-09-13)
+
+* Update layers/meta-bsp-imx8mp to 18fcd4e934beb73edfcdcd1f96c5f976f7a371b0 [balena-renovate[bot]]
+
 # v6.0.22+rev2
 ## (2024-09-12)
 
