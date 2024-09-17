@@ -60,4 +60,4 @@ modifying `local.conf`.
 
 ## Provisioning
 
-Provisioning tools for flashing balenaOS on Compulab IOTDIN-IMX8P devices can be found [here](https://github.com/balena-os/iotdin-imx8p-flashtools.git)
+Provisioning tools for flashing balenaOS on Compulab IOTDIN-IMX8P devices can be found [here](https://github.com/balena-os/iot-gate-imx8plus-flashtools.git)
