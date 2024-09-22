@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update layers/meta-bsp-imx8mp to 649a638ee1fbfeef62358bdd7bfaf7f6aa72ccbc
+      hash: f8c1e2ca4a6ff861687f1f69bf234793dd9f8770
+      body: Update layers/meta-bsp-imx8mp
+      footer:
+        Changelog-entry: Update layers/meta-bsp-imx8mp to
+          649a638ee1fbfeef62358bdd7bfaf7f6aa72ccbc
+        changelog-entry: Update layers/meta-bsp-imx8mp to
+          649a638ee1fbfeef62358bdd7bfaf7f6aa72ccbc
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.32+rev1
+  title: ""
+  date: 2024-09-22T21:24:42.536Z
+- commits:
     - subject: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
       hash: d40b1bde72ab64e7c86316d5a4468dc9cc64b315
       body: Update layers/meta-balena
