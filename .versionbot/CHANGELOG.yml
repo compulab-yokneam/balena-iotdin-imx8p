@@ -1,4 +1,110 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 654f5cf71ee54748cf217e1e1ab56c510143f3fc
+      hash: d324497f9276c50249963ff6c8b2d9ccc2b7c109
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 654f5cf71ee54748cf217e1e1ab56c510143f3fc
+        changelog-entry: Update balena-yocto-scripts to 654f5cf71ee54748cf217e1e1ab56c510143f3fc
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: use github app installation token for device repository cloning
+              hash: 8eff76f9e8c5b03bf767edde7430bc414af0e028
+              body: >
+                This is required for cloning private submodules - as the default
+                behaviour means the token is scoped only to the repository the
+                workflow is running on
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.25.50
+          title: ""
+          date: 2024-10-02T11:17:01.374Z
+        - commits:
+            - subject: Only attempt to decrypt if we have encrypted in the build step
+              hash: c3d677008304b4b4744f6cf88e50b2ff65814079
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke<ryan@balena.io>
+                signed-off-by: Ryan Cooke<ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+            - subject: Fetch full depth in order to checkout custom meta-balena-refs
+              hash: e1f1a2fdafe58bd3f87b68fdec3c0bd195671eea
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Encrypt balenaOS artifacts at rest in GitHub
+              hash: 116d81b89cde4f6d99c10c3b32d66e64322258a7
+              body: |
+                Applies symmetric encryption (PBKDF2 hardened) to balenaOS
+                build assets prior to uploading them to GitHub for temporary
+                storage between builds. Decrypts assets after downloading.
+
+                Requires: https://github.com/balena-os/.github/pull/83
+              footer:
+                change-type: patch
+              author: Anton Belodedenko
+              nested: []
+          version: balena-yocto-scripts-1.25.49
+          title: ""
+          date: 2024-10-01T17:06:45.014Z
+        - commits:
+            - subject: Update actions/checkout action to v4.2.0
+              hash: 6246fcdbc4e3ba00105aeb6347d60ab01b3deb24
+              body: |
+                Update actions/checkout from 4.1.7 to 4.2.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.48
+          title: ""
+          date: 2024-10-01T00:14:17.618Z
+        - commits:
+            - subject: "patch: Stop persisting credentials in actions/checkout"
+              hash: 0fa90791298e14fa15dbba2b82e0579ed85c41a4
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: balena-yocto-scripts-1.25.47
+          title: ""
+          date: 2024-09-30T10:53:24.792Z
+        - commits:
+            - subject: use genericx86-64-ext image for testing the workflow
+              hash: 20435d215d18aba21502871cd8249437c39914a1
+              body: >
+                Using genericx86-64-ext as its smaller, faster to build and the
+                repo is blocked less often
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.46
+          title: ""
+          date: 2024-09-27T15:13:10.481Z
+  version: 6.0.33+rev2
+  title: ""
+  date: 2024-10-03T21:24:52.088Z
+- commits:
     - subject: Add GHA Built Test Deploy workflows
       hash: 60cfbc4daa39bb2ed290384c9362842a2377bd13
       body: ""
