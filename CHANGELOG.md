@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.0.33+rev5
+## (2024-10-05)
+
+* Update layers/meta-openembedded to dd3d2293ffdf2559f8a433f241765a8ab50cd085 [balena-renovate[bot]]
+
 # v6.0.33+rev4
 ## (2024-10-05)
 
