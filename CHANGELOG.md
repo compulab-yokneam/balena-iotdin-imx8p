@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.0.33+rev4
+## (2024-10-05)
+
+* Update balena-os/balena-yocto-scripts to [balena-renovate[bot]]
+
 # v6.0.33+rev3
 ## (2024-10-04)
 
