@@ -34,3 +34,7 @@
 	path = layers/meta-imx
 	url = https://github.com/nxp-imx/meta-imx.git
 	branch = kirkstone-5.15.71-2.2.2
+[submodule "layers/meta-cyclonedx"]
+	path = layers/meta-cyclonedx
+	url = https://github.com/balena-os/meta-cyclonedx
+	branch = kirkstone
