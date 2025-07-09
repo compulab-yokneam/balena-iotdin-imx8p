@@ -1,4 +1,19 @@
 - commits:
+    - subject: Generate SBOM and VEX (cycloneDX)
+      hash: 1bb3bf0d0770233f02507568f932183f85f64f43
+      body: >
+        https://balena.fibery.io/Work/Project/balenaos-SBOM-as-release-asset-1515
+      footer:
+        Changelog-entry: Generate SBOM and VEX (cycloneDX)
+        changelog-entry: Generate SBOM and VEX (cycloneDX)
+        Signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+        signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+      author: Edwin Joassart
+      nested: []
+  version: 6.0.41+rev5
+  title: ""
+  date: 2025-07-09T10:23:31.072Z
+- commits:
     - subject: Update balena-yocto-scripts to e5a831d9b3f8d324c6ad57974f3ddc001ea0927c
       hash: ffcea3fc2ce9fea28ab7f3d841beccc3ef1505ce
       body: Update balena-yocto-scripts
@@ -1001,16 +1016,11 @@
         - commits:
             - subject: "modemmanager: Fix SIM7100E crash"
               hash: e397c18742117596fed133e0b5992362e230f538
-              body: >
+              body: |
                 With the update to MM 1.22.0 we have received reports that
-
                 SIM7100E is not functioning correctly.
-
-                Followed up with ModemManager devs and it was discovered the
-                issue
-
+                Followed up with ModemManager devs and it was discovered the issue
                 is related to a PCO setting:
-
                 https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/issues/884
               footer:
                 Change-type: patch
@@ -3057,11 +3067,8 @@
         - commits:
             - subject: "hw.device-type: Update provisioning instructions for AGX Orin 64GB"
               hash: f8d665f044ea2e39a100fb865ffd5f8a8f4ae65f
-              body: >
-                The AGX Orin 64GB should be provisioned on the eMMC by default
-                as per the internal thread
-                https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
-
+              body: |
+                The AGX Orin 64GB should be provisioned on the eMMC by default as per the internal thread https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
 
                 We thus update the provisioning instructions accordingly
               footer:
@@ -3415,14 +3422,8 @@
               nested: []
             - subject: unroll balena_api_is_dt_private function
               hash: cc3102dbb1348ee563b08dfd3afd37daaa0404ca
-              body: >
-                when building + deploying or a private DT , the check to see if
-                the DT is private fails. This is due to
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424
-                using this function:
-                https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191
-                - which uses the jenkins deployTo variable to select the correct
-                api url and token.
+              body: |
+                when building + deploying or a private DT , the check to see if the DT is private fails. This is due to https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-api.inc#L424 using this function: https://github.com/balena-os/balena-yocto-scripts/blob/master/automation/include/balena-lib.inc#L191 - which uses the jenkins deployTo variable to select the correct api url and token.
               footer:
                 Change-type: patch
                 change-type: patch
