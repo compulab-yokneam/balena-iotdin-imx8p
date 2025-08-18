@@ -1,4 +1,28 @@
 - commits:
+    - subject: "layers/meta-balena: Update to v6.5.53"
+      hash: c1086c043f7b34a00fcbe5818e2825ba6b48e656
+      body: ""
+      footer:
+        Changelog-entry: "layers/meta-balena: Update to v6.5.53"
+        changelog-entry: "layers/meta-balena: Update to v6.5.53"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: "balena-yocto-scripts: Bump to v1.37.18"
+      hash: 9041f674f92a543bb46f147b1e5da13fed157824
+      body: ""
+      footer:
+        Changelog-entry: "balena-yocto-scripts: Bump to v1.37.18"
+        changelog-entry: "balena-yocto-scripts: Bump to v1.37.18"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 6.5.53
+  title: ""
+  date: 2025-08-18T07:14:57.590Z
+- commits:
     - subject: Generate SBOM and VEX (cycloneDX)
       hash: 1bb3bf0d0770233f02507568f932183f85f64f43
       body: >

@@ -2,6 +2,12 @@
 
 # v6.0.5
 
+# v6.5.53
+## (2025-08-18)
+
+* layers/meta-balena: Update to v6.5.53 [Alexandru Costache]
+* balena-yocto-scripts: Bump to v1.37.18 [Alexandru Costache]
+
 # v6.0.41+rev5
 ## (2025-07-09)
 
