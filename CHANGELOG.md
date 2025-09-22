@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.5.53+rev23
+## (2025-09-22)
+
+* workflows: Add workflow call trigger [Ryan Cooke]
+
 # v6.5.53+rev22
 ## (2025-09-18)
 
