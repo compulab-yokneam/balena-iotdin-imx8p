@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.5.53+rev25
+## (2025-10-07)
+
+* workflows: stop get_inputs job running on both PR and PRT triggers [Ryan Cooke]
+
 # v6.5.53+rev24
 ## (2025-09-25)
 

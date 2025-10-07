@@ -1,4 +1,20 @@
 - commits:
+    - subject: "workflows: stop get_inputs job running on both PR and PRT triggers"
+      hash: 44b9f3acfd431314675bb0608a6985f2a226113b
+      body: >
+        This stops an issue in the yocto-scripts workflow logic caused by
+        get_inputs running twice on commits
+      footer:
+        Changelog-entry: "workflows: stop get_inputs job running on both PR and PRT triggers"
+        changelog-entry: "workflows: stop get_inputs job running on both PR and PRT triggers"
+        Signed-off-by: Ryan Cooke<ryan@balena.io>
+        signed-off-by: Ryan Cooke<ryan@balena.io>
+      author: Ryan Cooke
+      nested: []
+  version: 6.5.53+rev25
+  title: ""
+  date: 2025-10-07T16:41:04.309Z
+- commits:
     - subject: Update balena-yocto-scripts to 4802bd82ff77b1ed887563e676e8ed32f6f2304d
       hash: 6d817e6c2ee550e42e82f3e159bf5b2e40cf0e04
       body: Update balena-yocto-scripts
