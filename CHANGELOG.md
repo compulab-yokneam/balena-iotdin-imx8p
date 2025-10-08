@@ -2,6 +2,21 @@
 
 # v6.0.5
 
+# v6.5.53+rev28
+## (2025-10-08)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 558629f7ee193dfa3a920376f095410df9241a0c [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.41
+> ### (2025-10-08)
+> 
+> * Update GitHub Actions [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.53+rev27
 ## (2025-10-08)
 
