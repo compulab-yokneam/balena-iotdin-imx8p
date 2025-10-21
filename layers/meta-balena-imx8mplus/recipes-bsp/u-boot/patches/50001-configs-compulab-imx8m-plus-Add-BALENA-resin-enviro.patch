@@ -1,0 +1,33 @@
+From 00ace89a01b48044906374c7ade6d546a02e1b8a Mon Sep 17 00:00:00 2001
+From: Valentin Raevsky <valentin@compulab.co.il>
+Date: Tue, 21 Oct 2025 07:27:08 +0300
+Subject: [PATCH] configs: compulab-imx8m-plus: Add BALENA resin environment
+
+Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+---
+ include/configs/compulab-imx8m-plus.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/include/configs/compulab-imx8m-plus.h b/include/configs/compulab-imx8m-plus.h
+index 3b982cc7dd1..1fe2b1690a3 100644
+--- a/include/configs/compulab-imx8m-plus.h
++++ b/include/configs/compulab-imx8m-plus.h
+@@ -10,6 +10,7 @@
+ #include <asm/arch/imx-regs.h>
+ 
+ #include "imx_env.h"
++#include <env_resin.h>
+ #include "compulab-balena-env.h"
+ 
+ #define CFG_SYS_UBOOT_BASE	(QSPI0_AMBA_BASE + CONFIG_SYS_MMCSD_RAW_MODE_U_BOOT_SECTOR * 512)
+@@ -56,6 +57,7 @@
+ 	CFG_MFG_ENV_SETTINGS \
+ 	BOOTENV \
+ 	MACHINE_EXTRA_ENV_SETTINGS \
++	BALENA_ENV \
+ 	CFG_BALENA_ENV_SETTINGS \
+ 	"video_link=1\0" \
+ 	"stdout=serial,vidconsole\0" \
+-- 
+2.34.1
+

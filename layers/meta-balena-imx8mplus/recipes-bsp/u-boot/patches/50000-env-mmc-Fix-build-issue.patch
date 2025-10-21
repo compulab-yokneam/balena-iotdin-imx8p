@@ -1,0 +1,33 @@
+From a0c61a20ad7177ba0a31322197edfd07b57f340c Mon Sep 17 00:00:00 2001
+From: Valentin Raevsky <valentin@compulab.co.il>
+Date: Tue, 21 Oct 2025 07:19:22 +0300
+Subject: [PATCH] env: mmc: Fix build issue
+
+Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+---
+ env/mmc.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/env/mmc.c b/env/mmc.c
+index 7a5836ad66c..c1aaaa732e8 100644
+--- a/env/mmc.c
++++ b/env/mmc.c
+@@ -302,6 +302,7 @@ fini:
+ 	return ret;
+ }
+ 
++#endif /* CONFIG_CMD_SAVEENV && !CONFIG_SPL_BUILD */
+ static inline int erase_env(struct mmc *mmc, unsigned long size,
+ 			    unsigned long offset)
+ {
+@@ -363,7 +364,6 @@ fini:
+ 	fini_mmc_for_env(mmc);
+ 	return ret;
+ }
+-#endif /* CONFIG_CMD_SAVEENV && !CONFIG_SPL_BUILD */
+ 
+ static inline int read_env(struct mmc *mmc, unsigned long size,
+ 			   unsigned long offset, const void *buffer)
+-- 
+2.34.1
+
