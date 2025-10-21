@@ -16,8 +16,24 @@ IMAGE_INSTALL:append = " \
     mp-verification-tool \
     libgpiod \
     libgpiod-tools \
-    iotd-imx8p-config \
     "
+
+IMAGE_INSTALL:append:iot-gate-imx8plus = " \
+    iot-gate-imx8plus-config \
+   "
+
+IMAGE_INSTALL:append:iot-gate-imx8plus-d1d8 = " \
+    iot-gate-imx8plus-config \
+   "
+
+IMAGE_INSTALL:append:iotd-imx8p = " \
+    iotd-imx8p-config \
+   "
+
+IMAGE_INSTALL:append:iotd-imx8p-d1d8 = " \
+    iotd-imx8p-config \
+   "
+
 IMAGE_INSTALL:remove = "kernel-image"
 IMAGE_INSTALL:remove = "packagegroup-fsl-optee-imx"
 IMAGE_INSTALL:remove = "jailhouse"
