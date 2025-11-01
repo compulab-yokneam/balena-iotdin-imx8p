@@ -2,6 +2,26 @@
 
 # v6.0.5
 
+# v6.5.53+rev37
+## (2025-11-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 1184d75bd1a0e77591f2f2d87af755e5d035f7a6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.71
+> ### (2025-11-01)
+> 
+> * Update Pin actions/download-artifact action to 018cc2c [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.38.70
+> ### (2025-11-01)
+> 
+> * Update aws/aws-cli to v2.31.27 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.53+rev36
 ## (2025-10-31)
 
